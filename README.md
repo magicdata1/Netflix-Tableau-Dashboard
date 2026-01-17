@@ -50,4 +50,4 @@ Choose **either** the live Tableau Public link above **or** open the packaged wo
    Selecting a **Title** refreshes the **detail cards** at the top to show the selected item’s Description, Date Added, Duration, Rating, Release Year, and Genre.
 
 
-
+## If you find this project useful or insightful, feel free to ⭐ star the repository!
