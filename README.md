@@ -1,5 +1,5 @@
 
-# Netflix Movies & TV Shows — Tableau Dashboard
+# Netflix Movies and TV Shows - Tableau Dashboard
 
 ##  Overview
 An interactive **Tableau** dashboard exploring the Netflix Movies & TV Shows dataset. It highlights catalogue composition, ratings, genre trends, geographic distribution, and growth over time. The dashboard also supports **title‑level drill‑down**: when a user selects a specific **Title**, the detail cards update to show **Description, Date Added, Duration, Rating, Release Year**, and **Genre**.
@@ -49,13 +49,5 @@ Choose **either** the live Tableau Public link above **or** open the packaged wo
 3. Use the filters on the right (Type, Title, etc.).  
    Selecting a **Title** refreshes the **detail cards** at the top to show the selected item’s Description, Date Added, Duration, Rating, Release Year, and Genre.
 
----
-
-## How the Title Details Work (Design Notes)
-- Each detail card (e.g., *Description*, *Date Added*) is a **dedicated text sheet** filtered by **Title**.
-- Filters are set to **Apply to Worksheets → All Using This Data Source** so the slicers control every card.
-- To ensure a single, clean value per card:
-  - Text fields use `ATTR([Field])` (returns one value or `*` if multiple).  
-  - Where needed, a single‑value calculation is used (e.g., `MIN([Field])`), especially for numeric/date fields.
 
 
