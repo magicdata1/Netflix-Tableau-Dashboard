@@ -7,7 +7,7 @@ An interactive **Tableau** dashboard exploring the Netflix Movies & TV Shows dat
 ---
 
 ##  Live Interactive Dashboard
-[View and interact with the published dashboard on Tableau Public][https://public.tableau.com/app/profile/smaragdi.albu/viz/Netflix_17668411964110/Dashboard1]
+[View and interact with the published dashboard on Tableau Public](https://public.tableau.com/app/profile/smaragdi.albu/viz/Netflix_17668411964110/Dashboard1)
 
 
 ---
